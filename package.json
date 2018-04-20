@@ -1,0 +1,21 @@
+{
+  "name": "vue-s3-deploy",
+  "version": "1.0.8",
+  "description": "Upload vue build files to s3",
+  "main": "index.js",
+  "author": "Peter Johnston <pemjohns@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.222.1",
+    "commander": "^2.15.1",
+    "mime": "^2.3.1"
+  },
+  "bin": {
+    "vueS3Deploy": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjo336/vue-s3-deploy"
+  }
+}
